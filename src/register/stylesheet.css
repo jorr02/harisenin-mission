@@ -39,10 +39,11 @@ p {
 #hero-sec {
     background-color: #FFFFFF;
     width: 590px;
-    height: 520px;
+    height: 680px;
     border:1px solid #F1F1F1;
     border-radius: 4px;
     margin: auto;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -78,6 +79,15 @@ p {
     font-size: 13px;
     border: 0;
     border-radius: 5px;
+}
+
+#phone-div {
+    display: flex;
+    height: 30px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 5%;
 }
 
 .line {

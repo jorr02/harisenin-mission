@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/stylesheet.css" rel="stylesheet">
-    <script src="/script.js" defer></script>
+    <link href="./stylesheet.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
     <title>Video Belajar</title>
 </head>
 <body>
@@ -21,17 +21,41 @@
         <div id="hero-sec">
             <div style="width: 531px; margin: auto;">
                 <div>
-                    <h1>Masuk ke Akun</h1>
+                    <h1>Pendaftaran Akun</h1>
                 </div>
                 <div style="margin-bottom: 20px;">
-                    <p>Yuk, lanjutin belajarmu di videobelajar.</p>
+                    <p>Yuk, daftarkan akunmu sekarang juga!</p>
                 </div>
                 <div style="text-align: start;">
-                    <p>E-Mail*</p>
+                    <p>Nama Lengkap*</p>
                     <input type="text" id="email-input">
                 </div>
                 <div style="text-align: start; margin-top: 20px;">
+                    <p>E-Mail*</p>
+                    <input type="text" id="email-input">
+                </div>
+                <div style="text-align: start;">
+                    <p>No. Hp*</p>
+                    <div style="display: flex;">
+                        <div id="phone-div">
+                            <div style="width: 50%;">
+                                <img src="https://flagcdn.com/w40/id.png" alt="Indonesia Flag" class="flag-icon" />
+                            </div>
+                            <select class="country-code-select" style="width: 50%;">
+                                <option value="+62">+62</option>
+                                <option value="+1">+1</option>
+                                <option value="+65">+65</option>
+                            </select>
+                        </div>
+                        <input type="tel" style="width: 75%;">
+                    </div> 
+                </div>
+                <div style="text-align: start;">
                     <p>Kata Sandi*</p>
+                    <input type="password" id="email-input">
+                </div>
+                <div style="text-align: start; margin-top: 20px;">
+                    <p>Konfirmasi Kata Sandi*</p>
                     <input type="password" id="password-input">
                 </div>
                 <div style="text-align: end; margin-top: 10px">
@@ -41,7 +65,7 @@
                     <button id="masuk-btn" onclick="location.href='src/main/index.html';">Masuk</button>
                 </div>
                 <div style="margin-top: 10px;">
-                    <button id="daftar-btn" onclick="location.href='src/register/index.html';">Daftar</button>
+                    <button id="daftar-btn">Daftar</button>
                 </div>
                 <div style="display: flex; align-items: center; margin-top: 30px;">
                     <div style="width: 45%;" class="line"></div>
